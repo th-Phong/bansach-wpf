@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:QL_SACH.ResourceXAML"
+    xmlns:viewmodel="clr-namespace:QL_SACH.ViewModel">
+    <viewmodel:MainViewModel x:Key="MainVM" />
+    <viewmodel:SachViewModel x:Key="SachVM" />
+    <viewmodel:TacGiaViewModel x:Key="TacGiaVM" />
+    <viewmodel:TheLoaiViewModel x:Key="TheLoaiVM" />
+    <viewmodel:ChiTietSachViewModel x:Key="ChiTietSachVM" />
+    <viewmodel:NhanVienViewModel x:Key="NhanVienVM" />
+    <viewmodel:KhacHangViewModel x:Key="KhachHangVM" />
+    <viewmodel:HoaDonViewModel x:Key="HoaDonVM" />
+    <viewmodel:UserControlBarViewModel x:Key="UserControlBarVM" />
+    <viewmodel:LoginViewModel x:Key="LoginVM" />
+</ResourceDictionary>

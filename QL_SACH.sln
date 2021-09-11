@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_SACH", "QL_SACH\QL_SACH.csproj", "{307B77D1-55A0-4733-93D2-71D4CE6C047F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307B77D1-55A0-4733-93D2-71D4CE6C047F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307B77D1-55A0-4733-93D2-71D4CE6C047F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307B77D1-55A0-4733-93D2-71D4CE6C047F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307B77D1-55A0-4733-93D2-71D4CE6C047F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83BC7C34-B4DB-41E4-B5E7-1C2AB3DA9706}
+	EndGlobalSection
+EndGlobal

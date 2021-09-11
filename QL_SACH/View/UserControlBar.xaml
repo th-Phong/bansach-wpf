@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="QL_SACH.View.UserControlBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:local="clr-namespace:QL_SACH.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             Name="ucControlBar"
+             DataContext="{StaticResource UserControlBarVM}"
+             mc:Ignorable="d">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="MouseLeftButtonDown">
+            <i:InvokeCommandAction Command="{Binding MouseMoveWindowCommand}"
+                                   CommandParameter="{Binding ElementName=ucControlBar}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid>
+        <materialDesign:ColorZone Height="32px"
+                                  Mode="PrimaryLight">
+            <DockPanel>
+                <DockPanel.Background>
+                    <LinearGradientBrush StartPoint="0.5,0"
+                                         EndPoint="0.5,1">
+                        <GradientStop Offset="0"
+                                      Color="White" />
+                        <GradientStop Offset="2"
+                                      Color="White" />
+                    </LinearGradientBrush>
+                </DockPanel.Background>
+                <StackPanel Background="Transparent"
+                            DockPanel.Dock="Right"
+                            Orientation="Horizontal">
+                    <StackPanel.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Margin"
+                                    Value="2,4" />
+                            <Setter Property="Width"
+                                    Value="40" />
+                        </Style>
+                    </StackPanel.Resources>
+
+                    <Button Width="22px"
+                            Height="22px"
+                            Margin="0,5,0,5"
+                            Background="#ffcc00"
+                            BorderBrush="{x:Null}"
+                            Command="{Binding MinimizeWindowCommand}"
+                            CommandParameter="{Binding ElementName=ucControlBar}"
+                            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                            ToolBar.OverflowMode="AsNeeded"
+                            ToolTip="Minimize">
+                        <materialDesign:PackIcon Width="15px"
+                                                 Height="15px"
+                                                 Kind="WindowMinimize" />
+                    </Button>
+                    <Button Width="22px"
+                            Height="22px"
+                            Margin="25,5,25,5"
+                            Background="Green"
+                            BorderBrush="{x:Null}"
+                            Command="{Binding MaximizeWindowCommand}"
+                            CommandParameter="{Binding ElementName=ucControlBar}"
+                            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                            ToolBar.OverflowMode="AsNeeded"
+                            ToolTip="Maximize">
+                        <materialDesign:PackIcon Width="15px"
+                                                 Height="15px"
+                                                 Kind="WindowMaximize" />
+                    </Button>
+                    <Button Width="22px"
+                            Height="22px"
+                            Margin="0,5,10,5"
+                            Background="Red"
+                            BorderBrush="{x:Null}"
+                            Command="{Binding CloseWindowCommand}"
+                            CommandParameter="{Binding ElementName=ucControlBar}"
+                            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                            ToolBar.OverflowMode="AsNeeded"
+                            ToolTip="Close">
+                        <materialDesign:PackIcon Width="15px"
+                                                 Height="15px"
+                                                 Kind="WindowClose" />
+                    </Button>
+                </StackPanel>
+
+                <StackPanel DockPanel.Dock="Left"
+                            Orientation="Horizontal">
+                    <Image Name="imgAvatar"
+                           Width="22"
+                           Height="22"
+                           Margin="7,0,0,0"
+                           Source="/QL_SACH;component/Images/Icon/Icon.ico"
+                           Stretch="Fill" />
+                    <TextBlock Margin="10,0,0,0"
+                               VerticalAlignment="Center"
+                               FontSize="18px"
+                               FontWeight="Bold"
+                               Text="{Binding Tag, ElementName=ucControlBar}" />
+                </StackPanel>
+            </DockPanel>
+        </materialDesign:ColorZone>
+    </Grid>
+</UserControl>

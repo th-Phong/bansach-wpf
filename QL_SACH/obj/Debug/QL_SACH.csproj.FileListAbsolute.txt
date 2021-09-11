@@ -1,0 +1,137 @@
+D:\Project\QL_SACH\QL_SACH\bin\Debug\QL_SACH.exe.config
+D:\Project\QL_SACH\QL_SACH\bin\Debug\QL_SACH.exe
+D:\Project\QL_SACH\QL_SACH\bin\Debug\QL_SACH.pdb
+D:\Project\QL_SACH\QL_SACH\bin\Debug\MaterialDesignColors.dll
+D:\Project\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Project\QL_SACH\QL_SACH\bin\Debug\MaterialDesignColors.pdb
+D:\Project\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Project\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\App.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH_MarkupCompile.cache
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH_MarkupCompile.lref
+D:\Project\QL_SACH\QL_SACH\obj\Debug\App.baml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.g.resources
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.Properties.Resources.resources
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.GenerateResource.cache
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.CoreCompileInputs.cache
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.CopyComplete
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.exe
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.pdb
+D:\Project\QL_SACH\QL_SACH\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\ResourceXAML\MainResource.baml
+D:\Project\QL_SACH\QL_SACH\bin\Debug\EntityFramework.dll
+D:\Project\QL_SACH\QL_SACH\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\QL_SACH\QL_SACH\bin\Debug\EntityFramework.xml
+D:\Project\QL_SACH\QL_SACH\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH_Content.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\MainView.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\MainView.baml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\SachView.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\SachView.baml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\TacGiaView.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\TacGiaView.baml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\TheLoaiView.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\TheLoaiView.baml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\ChiTietSachView.g.cs
+D:\Project\QL_SACH\QL_SACH\obj\Debug\View\ChiTietSachView.baml
+D:\Project\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csprojAssemblyReference.cache
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\QL_SACH.exe.config
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\QL_SACH.exe
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\QL_SACH.pdb
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\EntityFramework.dll
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\MaterialDesignColors.dll
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\EntityFramework.xml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\ChiTietSachView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\MainView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\SachView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\TacGiaView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\TheLoaiView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\App.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH_Content.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH_MarkupCompile.cache
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH_MarkupCompile.lref
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\App.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\ChiTietSachView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\MainView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\SachView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\TacGiaView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\TheLoaiView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH.g.resources
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH.Properties.Resources.resources
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.GenerateResource.Cache
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH.exe
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH.pdb
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\QL_SACH.exe.config
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\QL_SACH.exe
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\QL_SACH.pdb
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\EntityFramework.dll
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\MaterialDesignColors.dll
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\EntityFramework.xml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\ChiTietSachView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\MainView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\SachView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\TacGiaView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\TheLoaiView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\App.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH_Content.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH_MarkupCompile.cache
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH_MarkupCompile.lref
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\App.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\ChiTietSachView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\MainView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\SachView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\TacGiaView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\TheLoaiView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.g.resources
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.Properties.Resources.resources
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.GenerateResource.cache
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.CoreCompileInputs.cache
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csproj.CopyComplete
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.exe
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.pdb
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\NhanVienView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\NhanVienView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\KhachHangView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\KhachHangView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\HoaDonView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\HoaDonView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\LoginView.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\LoginView.baml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\UserControlBar.g.cs
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\View\UserControlBar.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\HoaDonView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\KhachHangView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\LoginView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\NhanVienView.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\UserControlBar.g.cs
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\HoaDonView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\KhachHangView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\LoginView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\NhanVienView.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\View\UserControlBar.baml
+C:\Users\PCLC2-PC01\Desktop\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csprojResolveAssemblyReference.cache
+C:\Users\hongp\OneDrive\Máy tính\QL_SACH\QL_SACH\obj\Debug\QL_SACH.csprojAssemblyReference.cache

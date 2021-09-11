@@ -1,0 +1,173 @@
+﻿<UserControl
+    x:Class="QL_SACH.View.TacGiaView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:QL_SACH.View"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="auto"
+    Height="auto"
+    DataContext="{StaticResource TacGiaVM}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    mc:Ignorable="d" MouseRightButtonDown="UserControl_MouseRightButtonDown">
+    <Grid>
+        <Grid Margin="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="Auto" />
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <materialDesign:Card>
+                <Grid Grid.Row="0">
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="17"
+                        FontWeight="Bold">
+                        Quản lý danh sách Tác giả
+                    </TextBlock>
+                </Grid>
+            </materialDesign:Card>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBox
+                    x:Name="tbMaTacGia"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Margin="50,4"
+                    IsEnabled="{Binding IsEnabled}"
+                    materialDesign:HintAssist.Hint="Mã tác giả"
+                    FontSize="18"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                    Text="{Binding MaTacGia, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBox
+                    x:Name="tbTenTacGia"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Margin="50,4"
+                    materialDesign:HintAssist.Hint="Tên tác giả"
+                    FontSize="18"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                    Text="{Binding TenTacGia, UpdateSourceTrigger=PropertyChanged}" />
+
+                <TextBox
+                    x:Name="tbQueQuan"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Margin="50,4"
+                    materialDesign:HintAssist.Hint="Quê quán"
+                    FontSize="18"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                    Text="{Binding QueQuan, UpdateSourceTrigger=PropertyChanged}" />
+
+                <ComboBox
+                    x:Name="cbPhai"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Margin="50,4"
+                    materialDesign:HintAssist.Hint="Phái"
+                    FontSize="18"
+                    IsEditable="False"
+                    Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                    Text="{Binding Phai, UpdateSourceTrigger=PropertyChanged}" />
+                <DatePicker
+                    x:Name="dpNgaySinh"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Margin="50,4"
+                    materialDesign:HintAssist.Hint="Ngày sinh"
+                    FontSize="18"
+                    SelectedDate="{Binding NgaySinh, StringFormat=dd/MM/yyyy, UpdateSourceTrigger=PropertyChanged}"
+                    Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+
+                <Button
+                    x:Name="btThem"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Margin="8,4,8,0"
+                    Background="Green"
+                    BorderBrush="Green"
+                    HorizontalAlignment="Left"
+                    Command="{Binding AddCommand}"
+                    Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                    ToolTip="Thêm tác giả">
+                    <materialDesign:PackIcon
+                        Width="24"
+                        Height="24"
+                        Kind="Plus" />
+                </Button>
+                <Button
+                    x:Name="btSua"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Margin="8,4,8,0"
+                    Background="#ffa000"
+                    BorderBrush="DarkOrange"
+                    HorizontalAlignment="Left"
+                    Command="{Binding EditCommand}"
+                    Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                    ToolTip="Chỉnh sửa tác giả">
+                    <materialDesign:PackIcon
+                        Width="24"
+                        Height="24"
+                        Kind="LeadPencil" />
+                </Button>
+                <Button
+                    x:Name="btXoa"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Margin="8,4,8,0"
+                    Background="Red"
+                    BorderBrush="Red"
+                    HorizontalAlignment="Left"
+                    Command="{Binding DeleteCommand}"
+                    Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                    ToolTip="Xóa tác giả">
+                    <materialDesign:PackIcon
+                        Width="24"
+                        Height="24"
+                        Kind="Delete" />
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="2" Margin="10,20,10,10">
+                <materialDesign:Card
+                    Grid.Row="2"
+                    Margin="5"
+                    VerticalAlignment="Stretch">
+
+                    <ListView x:Name="listTacGia"
+                        ItemsSource="{Binding ListTacGia}" SelectedItem="{Binding SelectedItem, Mode=OneWayToSource}" MouseRightButtonDown="ListView_MouseRightButtonDown">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding MaTacGia}" Header="Mã tác giả" />
+                                <GridViewColumn DisplayMemberBinding="{Binding TenTacGia}" Header="Tên tác giả" />
+                                <GridViewColumn DisplayMemberBinding="{Binding NgaySinh, StringFormat='dd/MM/yyyy'}" Header="Ngày sinh" />
+                                <GridViewColumn DisplayMemberBinding="{Binding QueQuan}" Header="Quê quán" />
+                                <GridViewColumn DisplayMemberBinding="{Binding Phai}" Header="Phái" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </materialDesign:Card>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>
